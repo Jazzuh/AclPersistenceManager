@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AclPersistence.Client", "Client\AclPersistence.Client.csproj", "{80E74FEE-605E-4246-93A4-CFA348A07C37}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AclPersistence.Server", "Server\AclPersistence.Server.csproj", "{3477684B-EB22-4900-9DBE-D2CE1D49DF76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80E74FEE-605E-4246-93A4-CFA348A07C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80E74FEE-605E-4246-93A4-CFA348A07C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80E74FEE-605E-4246-93A4-CFA348A07C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80E74FEE-605E-4246-93A4-CFA348A07C37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3477684B-EB22-4900-9DBE-D2CE1D49DF76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3477684B-EB22-4900-9DBE-D2CE1D49DF76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3477684B-EB22-4900-9DBE-D2CE1D49DF76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3477684B-EB22-4900-9DBE-D2CE1D49DF76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {426509D3-02A5-4597-BA87-B439B5FEC920}
+	EndGlobalSection
+EndGlobal
