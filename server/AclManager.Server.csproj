@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <DebugType>portable</DebugType>
+    <TargetName>$(AssemblyName).net</TargetName>
+    <DefineConstants>SERVER</DefineConstants>
+    <LangVersion>9</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CfxUtils.Logging.Server" Version="1.0.1" />
+    <PackageReference Include="CfxUtils.Wrappers.Chat.Server" Version="1.0.0" />
+    <PackageReference Include="CitizenFX.Core.Server" Version="1.0.*" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.0.0" />
+    <PackageReference Include="MySqlConnector" Version="2.2.7" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="SqlKata" Version="2.4.0" />
+    <PackageReference Include="SqlKata.Execution" Version="2.4.0" />
+  </ItemGroup>
+</Project>
